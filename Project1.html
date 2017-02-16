@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<head>
+  <title>Tommy Ng</title>
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="Project1.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+  <div class="jumbotron">
+    <h1 class="text-center">Tommy Ng</h1>
+    <h2 class="text-center">Programmer in training</h2>
+</div>
+
+<ul class="nav nav-pills nav-justified">
+    <li role="presentation" class="active"><a href="#home" aria-controls = "home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#portfolio" aria-controls="portfolio" role="tab" data-toggle="tab">Portfolio</a></li>
+    <li role="presentation"><a href="#resume" aria-controls="resume" role="tab" data-toggle="tab">Resume</a></li>
+    <li role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
+    <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a></li>
+</ul>
+
+  <div class="tab-content">
+    <div role="tabpanel"class="tab-pane active" id="home">
+    <p>Hello! My name is Tommy Ng and I'm a current student at Minneapolis
+    Community and Technical College pursuing an Associate's degree in
+    Software Development. I'm also currently a Customer Success Coach at
+    SportsEngine, which is known for it's website platform designed specifically
+    for sports programs around the nation.</p>
+    <br>
+    <p>In my freetime, I enjoy playing PC games, watching movies, and traveling all
+    over the world.</p>
+</div>
+
+<div role="tabpanel" class="tab-pane" id="portfolio">
+    <p>Some of my recent work</p>
+</div>
+
+<div role="tabpanel" class="tab-pane" id="resume">
+  <h1>Experience:</h1>
+  <br>
+  <h2>Customer Success Coach - SportsEngine</h2>
+  <ul>
+    <li>Provide quick and accurate follow through to customers regarding issue resolution via phone, email, and chat.</li>
+    <li>Provide customers with precise “how-to” assistance over phone or email on troubleshooting issues.</li>
+    <li>Follow all internal training necessary to sustain knowledge of products on the SportsEngine platform.</li>
+    <li>Keep assigned support tickets organized and set contact touchpoints to ensure a consistent stream of communication with customers.</li>
+    <li>Notice and report any ongoing ticket trends to manager.</li>
+    <li>Monitor assigned tickets and work in partnership with managers and development team.</li>
+    <li>Gather and provide all relevant data to be escalated if necessary.</li>
+    <li>Build an image of the company with strong expertise and excellent customer support.</li>
+  </ul>
+
+</div>
+
+<div role="tabpanel" class="tab-pane" id="about">
+  <p><img src="me.jpg" width=300px></p>
+
+</div>
+
+<div role="tabpanel" class="tab-pane" id="contact">
+  <form>
+    <p>First Name:</p>
+    <input type="text" id="firstname" required="required">
+    <p>Last Name:</p>
+    <input type="text" id="lastname" required="required">
+    <p>Email:</p>
+    <input type="email" id="email" required="required">
+    <p>Comments:</p>
+    <textarea rows="8" cols="80" id="comments" required="required"></textarea>
+  <br>
+  <br>
+    <button type="button" onclick="welcome()">Submit</button>
+  </form>
+
+</div>
+</div>
+<br>
+  <footer id="foot">
+  <p>CONTACT</p>
+  <p>Email: tng0023@gmail.com</p>
+  <p >Phon: 555-555-5555</p>
+  </footer>
+
+</body>
+
+</html>

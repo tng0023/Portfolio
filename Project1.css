@@ -1,0 +1,75 @@
+.jumbotron{
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+  font-family:fantasy;;
+  font-style: oblique;
+  padding: 0.5em 0.6em;
+  height:100%;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+}
+
+body{
+  background-image:url(typewriter.jpg);
+
+}
+
+h1{
+  color:black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight:900;
+}
+
+#foot{
+  font-size: 18px;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+.nav-pills a{
+  color:black;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:black;
+    background-color:transparent;
+    }
+
+
+#home{
+  font-size: 16px;
+  padding-left: 15em;
+  padding-right: 15em;
+  color: black;
+  font-weight: 900
+}
+
+#portfolio{
+  font-size: 16px;
+  padding-left: 15em;
+  padding-right: 15em;
+}
+
+#resume{
+  font-size: 16px;
+  padding-left: 15em;
+  padding-right: 15em;
+}
+
+#about{
+  font-size: 16px;
+  text-align: center;
+}
+
+#contact{
+  font-size: 16px;
+  padding-left: 15em;
+  padding-right: 15em;
+}
+
+
+ul{
+  padding:15px 75px 30px;
+}
