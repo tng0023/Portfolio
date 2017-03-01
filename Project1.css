@@ -1,75 +1,105 @@
 .jumbotron{
   background-color: transparent;
   color: white;
-  font-size: 30px;
-  font-family:fantasy;;
-  font-style: oblique;
-  padding: 0.5em 0.6em;
-  height:100%;
-  width: 100%;
-  max-width: 100%;
-  background-size: cover;
+  font-size: 25px;
+  font-family:sans-serif;
+  width:inherit;
+  height: inherit;
 }
 
-body{
-  background-image:url(typewriter.jpg);
-
-}
-
-h1{
-  color:black;
-  font-family: Impact, Charcoal, sans-serif;
-  font-weight:900;
-}
-
-#foot{
-  font-size: 18px;
-  font-family: fantasy;
-  font-weight: bolder;
-}
 
 .nav-pills a{
-  color:black;
+  color:white;
+  font-weight: 900;
+  width: 100px;
+}
+
+.nav-pills{
+  margin: 0 auto;
+  padding: 0px;
+  width: 500px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color:black;
-    background-color:transparent;
+    background-color:skyblue;
     }
 
+#page{
+background-color:#010070;
+margin: 0px 50px 0px 50px;
+}
+
+#background{
+  background-image: url("background.jpg");
+}
+
+h1{
+    color:white;
+    font-family:sans-serif;
+    font-weight:900;
+    text-decoration: underline;
+}
 
 #home{
   font-size: 16px;
-  padding-left: 15em;
-  padding-right: 15em;
-  color: black;
-  font-weight: 900
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 2em;
+  color: white;
+  font-weight: 900;
 }
 
 #portfolio{
   font-size: 16px;
-  padding-left: 15em;
-  padding-right: 15em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 2em;
+  color: white;
+  font-weight: 900;
 }
 
 #resume{
   font-size: 16px;
-  padding-left: 15em;
-  padding-right: 15em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 2em;
+  color: white;
+  font-weight: 900;
 }
 
 #about{
   font-size: 16px;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 2em;
   text-align: center;
+  color: white;
+  font-weight: 900;
 }
 
 #contact{
   font-size: 16px;
-  padding-left: 15em;
-  padding-right: 15em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 2em;
+  font-weight: 900;
+  color: white;
 }
 
+#foot{
+  display:block;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 900;
+  color:white;
+  padding-left: 10px;
+}
 
-ul{
-  padding:15px 75px 30px;
+input{
+  color: black;
+}
+
+th{
+  font-weight: 900;
 }

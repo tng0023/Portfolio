@@ -1,22 +1,26 @@
 <!DOCTYPE HTML>
 <head>
   <title>Tommy Ng</title>
-  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
   <link rel="stylesheet" type="text/css" href="Project1.css">
+  <script src="Project1.js"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
 
+<body>
+  <div id="background">
+    <div id="page">
 <div class="container">
   <div class="row">
-  <div class="jumbotron">
-    <h1 class="text-center">Tommy Ng</h1>
-    <h2 class="text-center">Programmer in training</h2>
+    <div class="col-xl-12 col-xl-6 col-xl-8">
+      <div class="jumbotron">
+    <h1>Tommy Ng</h1>
+    <h2>Programmer in Training</h2>
+    <hr>
 </div>
 
 <ul class="nav nav-pills nav-justified">
@@ -29,24 +33,31 @@
 
   <div class="tab-content">
     <div role="tabpanel"class="tab-pane active" id="home">
+      <h1><center>HOME</center></h1>
     <p>Hello! My name is Tommy Ng and I'm a current student at Minneapolis
     Community and Technical College pursuing an Associate's degree in
     Software Development. I'm also currently a Customer Success Coach at
     SportsEngine, which is known for it's website platform designed specifically
     for sports programs around the nation.</p>
-    <br>
-    <p>In my freetime, I enjoy playing PC games, watching movies, and traveling all
-    over the world.</p>
+    <p>I am currently looking for the opportunity to showcase my skills and
+    be immersed within a great development team.</p>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="portfolio">
-    <p>Some of my recent work</p>
+    <h1><center>PORTFOLOIO</center></h1>
+    <table class="table table-bordered">
+      <th>Project Name</th><th>Program</th><th>Description</th><th>Github link</th>
+      <tr><td>Calculator</td><td>C#</td><td>A basic calculator program.</td><td><a href="https://github.com/tng0023/BasicCalculator" target="_blank">Github</a></td></tr>
+      <tr><td>Snake Game</td><td>Java</td><td>A game called snake.</td><td><a href="https://github.com/tng0023/Snake" target="_blank">Github</a></td></tr>
+      <tr><td>Lunch Menu</td><td>C#</td><td>A lunch ordering program.</td><td><a href="https://github.com/tng0023/LunchMenu" target="_blank">Github</a></td></tr>
+    </table>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="resume">
-  <h1>Experience:</h1>
-  <br>
-  <h2>Customer Success Coach - SportsEngine</h2>
+  <h1><center>RESUME</center></h1>
+  <h3>Experience:</h3>
+  <hr>
+  <h4>Customer Success Coach - <a href="http://www.sportsengine.com" target="_blank">SportsEngine</a></h4>
   <ul>
     <li>Provide quick and accurate follow through to customers regarding issue resolution via phone, email, and chat.</li>
     <li>Provide customers with precise “how-to” assistance over phone or email on troubleshooting issues.</li>
@@ -57,36 +68,66 @@
     <li>Gather and provide all relevant data to be escalated if necessary.</li>
     <li>Build an image of the company with strong expertise and excellent customer support.</li>
   </ul>
+  <h3>Education:</h3>
+    <hr>
+  <p>MINNEAPOLIS COMMUNITY AND TECHNICAL COLLEGE ▪ MINNEAPOLIS, MN ▪ 2015-2017</p>
+  <p>Associate’s Degree – Software Development (Expected December 2017) GPA 3.5/4.0
+</p>
 
 </div>
 
 <div role="tabpanel" class="tab-pane" id="about">
-  <p><img src="me.jpg" width=300px></p>
+  <h1><center>ABOUT</center></h1>
+  <h3>To learn more about me, please visit my social media links!</h3>
+  <p>
+     <a href="https://github.com/tng0023" target="_blank"><img src="Octocat.jpg" width="50px"></a>
+     <a href="https://www.linkedin.com/in/tommy-ng-52905714/" target="_blank"><img src="linkedin.png" width="50px"></a>
+     <a href="https://www.facebook.com/tommy.ng.7792img" target="_blank"><img src="facebook.png" width="50px"></a>
+     <a href="http://www.twitter.com/tommyng23" target="_blank"><img src="twitter.png" width="50px"></a>
+  </p>
+
 
 </div>
 
 <div role="tabpanel" class="tab-pane" id="contact">
+  <h1><center>CONTACT</center></h1>
   <form>
     <p>First Name:</p>
-    <input type="text" id="firstname" required="required">
+    <input type="text" id="firstname" required="required"></input>
     <p>Last Name:</p>
-    <input type="text" id="lastname" required="required">
+    <input type="text" id="lastname" required="required"></input>
     <p>Email:</p>
-    <input type="email" id="email" required="required">
+    <input type="email" id="email" required="required"></input>
     <p>Comments:</p>
     <textarea rows="8" cols="80" id="comments" required="required"></textarea>
   <br>
   <br>
-    <button type="button" onclick="welcome()">Submit</button>
+    <button type="button">Submit</button>
   </form>
 
 </div>
 </div>
-<br>
+</div>
+</div>
+
+
+<hr>
   <footer id="foot">
   <p>CONTACT</p>
-  <p>Email: tng0023@gmail.com</p>
-  <p >Phon: 555-555-5555</p>
+  <p class="glyphicon glyphicon-envelope"><a href="mailto:tng0023@gmail.com"> tng0023@gmail.com</a></p>
+  <br>
+  <p class="glyphicon glyphicon-phone-alt"> 555-555-5555</p>
+  <p>
+     <a href="https://github.com/tng0023"><img src="Octocat.jpg" width="30px" target="_blank"></a>
+     <a href="https://www.linkedin.com/in/tommy-ng-52905714/"><img src="linkedin.png" width="30px" target="_blank"></a>
+     <a href="http://www.twitter.com/tommyng23"><img src="twitter.png" width="30px" target="_blank"></a>
+     <a href="https://www.facebook.com/tommy.ng.7792img"><img src="facebook.png" width="30px"></a>
+  </p>
+  <p class="text-right" id="date"></p>
+  <script type="text/javascript">
+  var d = new Date();
+  document.getElementById("date").innerHTML = d.toDateString();
+  </script>
   </footer>
 
 </body>
