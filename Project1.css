@@ -1,23 +1,24 @@
 .jumbotron{
-  background-color: transparent;
-  color: white;
+  background-image: url("twall.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
   font-size: 25px;
   font-family:sans-serif;
-  width:inherit;
-  height: inherit;
+  width:auto;
+  height: auto
 }
 
 
 .nav-pills a{
-  color:white;
+  color:black;
   font-weight: 900;
-  width: 100px;
+  width: 150px;
 }
 
 .nav-pills{
   margin: 0 auto;
   padding: 0px;
-  width: 500px;
+  width: 800px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
@@ -26,16 +27,16 @@
     }
 
 #page{
-background-color:#010070;
-margin: 0px 50px 0px 50px;
+background-color:white;
+margin: 0px 45px 0px 45px;
 }
 
 #background{
-  background-image: url("background.jpg");
+  background-image: url("brick.jpg");
 }
 
 h1{
-    color:white;
+    color:black;
     font-family:sans-serif;
     font-weight:900;
     text-decoration: underline;
@@ -46,8 +47,7 @@ h1{
   padding-left: 10em;
   padding-right: 10em;
   padding-top: 2em;
-  color: white;
-  font-weight: 900;
+  color: black;
 }
 
 #portfolio{
@@ -55,8 +55,7 @@ h1{
   padding-left: 10em;
   padding-right: 10em;
   padding-top: 2em;
-  color: white;
-  font-weight: 900;
+  color: black;
 }
 
 #resume{
@@ -64,8 +63,7 @@ h1{
   padding-left: 10em;
   padding-right: 10em;
   padding-top: 2em;
-  color: white;
-  font-weight: 900;
+  color: black;
 }
 
 #about{
@@ -74,8 +72,7 @@ h1{
   padding-right: 10em;
   padding-top: 2em;
   text-align: center;
-  color: white;
-  font-weight: 900;
+  color: black;
 }
 
 #contact{
@@ -83,8 +80,7 @@ h1{
   padding-left: 10em;
   padding-right: 10em;
   padding-top: 2em;
-  font-weight: 900;
-  color: white;
+  color: black;
 }
 
 #foot{
@@ -92,7 +88,7 @@ h1{
   font-size: 16px;
   font-family: sans-serif;
   font-weight: 900;
-  color:white;
+  color:black;
   padding-left: 10px;
 }
 
@@ -102,4 +98,9 @@ input{
 
 th{
   font-weight: 900;
+  text-decoration: underline;
+}
+
+fieldset{
+  width: 350px;
 }

@@ -18,11 +18,9 @@
   <div class="row">
     <div class="col-xl-12 col-xl-6 col-xl-8">
       <div class="jumbotron">
-    <h1>Tommy Ng</h1>
-    <h2>Programmer in Training</h2>
-    <hr>
+      <BR><BR><BR><BR><BR>
 </div>
-
+<!--bootstrap nav pills code-->
 <ul class="nav nav-pills nav-justified">
     <li role="presentation" class="active"><a href="#home" aria-controls = "home" role="tab" data-toggle="tab">Home</a></li>
     <li role="presentation"><a href="#portfolio" aria-controls="portfolio" role="tab" data-toggle="tab">Portfolio</a></li>
@@ -30,7 +28,7 @@
     <li role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">About</a></li>
     <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a></li>
 </ul>
-
+<!--home tab content-->
   <div class="tab-content">
     <div role="tabpanel"class="tab-pane active" id="home">
       <h1><center>HOME</center></h1>
@@ -42,7 +40,7 @@
     <p>I am currently looking for the opportunity to showcase my skills and
     be immersed within a great development team.</p>
 </div>
-
+<!--portfolio tab content-->
 <div role="tabpanel" class="tab-pane" id="portfolio">
     <h1><center>PORTFOLOIO</center></h1>
     <table class="table table-bordered">
@@ -52,7 +50,7 @@
       <tr><td>Lunch Menu</td><td>C#</td><td>A lunch ordering program.</td><td><a href="https://github.com/tng0023/LunchMenu" target="_blank">Github</a></td></tr>
     </table>
 </div>
-
+<!--resume tab content-->
 <div role="tabpanel" class="tab-pane" id="resume">
   <h1><center>RESUME</center></h1>
   <h3>Experience:</h3>
@@ -75,9 +73,13 @@
 </p>
 
 </div>
-
+<!--about tab content-->
 <div role="tabpanel" class="tab-pane" id="about">
   <h1><center>ABOUT</center></h1>
+  <br>
+  <p>
+    <img src="me.jpg" width="400px">
+  </p>
   <h3>To learn more about me, please visit my social media links!</h3>
   <p>
      <a href="https://github.com/tng0023" target="_blank"><img src="Octocat.jpg" width="50px"></a>
@@ -88,22 +90,27 @@
 
 
 </div>
-
+<!--contact tab content-->
 <div role="tabpanel" class="tab-pane" id="contact">
   <h1><center>CONTACT</center></h1>
+  <fieldset>
   <form>
-    <p>First Name:</p>
-    <input type="text" id="firstname" required="required"></input>
-    <p>Last Name:</p>
-    <input type="text" id="lastname" required="required"></input>
-    <p>Email:</p>
-    <input type="email" id="email" required="required"></input>
-    <p>Comments:</p>
-    <textarea rows="8" cols="80" id="comments" required="required"></textarea>
+    <label class="title">First Name:<input type="text" name="username" maxlength="70" required=
+    "required"></label>
+    <br>
+    <label class="title">Last Name:<input type="text" name="username" maxlength="70" required=
+    "required"></label>
+    <br>
+    <label>Email:<input type="email" name="email" maxlength="100" required="required">
+    </label>
+    <br>
+    <label>Comments:<textarea rows="6" cols="70" id="comments" required="required"></textarea>
+    </label>
   <br>
   <br>
-    <button type="button">Submit</button>
+    <input type="submit" name="submit" value="submit" id="submit"/>
   </form>
+</fieldset>
 
 </div>
 </div>
